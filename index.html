@@ -6,85 +6,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Kyrylenko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background: url(./images/background.png); background-size: cover;">
-    <header>
-        <img src="./images/my_photo.jpg" width="200" height="250" alt="Кириленко Наталі">
-        <h1 style="color: rgb(24, 4, 136);">Kyrylenko Natalia</h1>
-        <p>
-            <a href="mailto:Natalik10107919@gmail.com"> Natalik10107919@gmail.com</a>
-        </p>
-        <p>
-            <a href="tel:+380999367395">тел: 099-936-73-95</a>
-        </p>
-        <p>Poltava</p>
-        <p>My
-            <a href="https://www.linkedin.com/in/natalia-kurulenko-92ab23216/target=_blank">Linkedin</a>
-        </p>
-    </header>
-
-    <hr align="center" width="950%" size="2" color="black" />
+<body>
     <main>
-        <section>
-            <h2 style="color: brown;">WORK EXPERIENCE:</h2>
-            <div>
-                <h5>(2020-2021p.) ТОВ "Farmasi" <i>CONSULTANT</i></h5>
-                <ul>
-                    <li>search for new workes (recruiting);</li>
-                    <li>sale of cosmetics;</li>
-                    <li>creating content;</li>
-                    <li>brand advertising.</li>
-                </ul>
+        <header class="header">
+            <div class="row">
+                <div class="col-md-6 header__img">
+                    <img src="./images/myPhoto.jpeg" alt="photo">
+                </div>
+                <div class="col-md-6 py-5 header__info">
+                    <h1 class="header__title">NATALIA KYRYLENKO</h1>
+                    <p class="header__text">JUNIOR FRONTEND DEVELOPER</p>
+                </div>
+                
+                <div class="header__item"></div>
             </div>
-        </section>
+        </header>
 
-        <section>
-            <div>
-                <h5>(07.2011-03.2012) "Petrenko" <i>ADMINISTRATOR</i></h5>
-                <ul>
-                    <li>organization of work;</li>
-                    <li>reception and processing of complaints and suggestions;</li>
-                    <li>receiving calls.</li>
-
-                </ul>
+        <section class="about">
+            <div class="col-md-6 p-4">
+                <div class="about__contact">
+                    <div>
+                        <a href="tel:+380999367395">+38099-936-73-95</a>
+                    </div>
+                    <div>
+                        <a href="mailto:Natalik10107919@gmail.com"> Natalik10107919@gmail.com</a>
+                    </div>
+                    <p>Poltava, Ukraine</p>
+                    <p>My
+                        <a href="https://www.linkedin.com/in/nata-kyrylenko/">Linkedin</a>
+                    </p>
+                </div>
+                <div class="about__person">
+                    <h2>PERSONAL SUMMARY</h2>
+                    <p class="about__text">I do the layout and programming of sites. And
+                        as well as refinement, adding full functionality
+                        to the site! I am making an adaptive layout this
+                        site turns out beautiful on any device, be it a
+                        computer, laptop, or phone.</p>
+                    <p class="about__text">Communication and conflict-free are my main
+                        traits. Multitasking is not a problem for me. I'm
+                        resilient and thirsty for self-development.</p>
+                </div>
+                <div class="about__skills">
+                    <h2>PROFESSIONAL SKILLS</h2>
+                    <ul>
+                        <li class="about__text">I know markup language HTML5,
+                            CSS3 style sheets, Post & Pre
+                            Processing CSS.
+                        </li>
+                        <li class="about__text">I know how to design responsive
+                            websites for tablets and mobile
+                            devices.</li>
+                        <li class="about__text">I can work with Photoshop, Figma. I
+                            also know libraries: jQuery, Vue.js,
+                            Slick Slider, Bootstrap! Familiar with
+                            tools Webpack, Gulp, AJAX, Google
+                            Maps API, version control system Git.</li>
+                        <li class="about__text">JavaScript language at the basic
+                            level</li>
+                    </ul>
+                </div>
             </div>
+            <div class="col-md-6 p-4">
+                <div class="about__experience">
+                    <h2>WORK EXPERIENCE:</h2>
+                    <div>
+                        <h4>"Farmasi" Network marketing</h4>
+                        <p>2020 - February 2022</p>
+                        <ul>
+                            <li class="about__text">Search for new workes (recruiting);</li>
+                            <li class="about__text">Sale of cosmetics;</li>
+                            <li class="about__text">Creating content;</li>
+                            <li class="about__text">Brand advertising.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>"Verholy Relax Park" Administrator</h4>
+                        <p>July 2011 - March 2012</p>
+                        <ul>
+                            <li class="about__text">Organization of work;</li>
+                            <li class="about__text">Reception and processing of
+                                complaints and suggestions;</li>
+                            <li class="about__text">Receiving calls.</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="about__education ">
+                    <h2>EDUCATION</h2>
+                    <ul>
+                        <li>
+                            <h4>Front-End Developer</h4>
+                            <p>Beetroot Academy</p>
+                            <p>October 2021 - February 2022</p>
+                        </li>
+                        <li>
+                            <h4>Intro to IT</h4>
+                            <p>Beetroot Academy</p>
+                            <p>July 2021 - August 2021</p>
+                        </li>
+                        <li>
+                            <h4>Network marketing training</h4>
+                            <p>Self-education</p>
+                            <p>August 2020</p>
+                        </li>
+                        <li>
+                            <h4>Poltava Construction Technical School of
+                                Transport Construction</h4>
+                            <p>Specialties - design and construction of
+                                roads and airfields</p>
+                            <p>2005 - 2008</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about__item"></div>
         </section>
-        <section>
-            <div>
-                <h5>(06.2010-07.2011) "Railway car building works" <i>SECRETARY</i></h5>
-                <ul>
-                    <li>reception and distribution of calls;</li>
-                    <li>conducting business correspondence; </li>
-                    <li>organizing the database; </li>
-                </ul>
-            </div>
-        </section>
-        <hr align="center" width="950%" size="2" color="black" />
-
-        <article>
-            <div>
-                <h2 style="color: brown;">EDUCATION:</h2>
-                <p><b>2005-2008pp </b> Poltava Construction Technical of Transport Construction, <br>specialty - design
-                    and
-                    construction
-                    roads and airfields;</p>
-                <p><b>2008p </b> Personnel school - a course in personnel administration;</p>
-                <p><b>2020р </b> Network marketing training;</p>
-                <p><b>2021р </b>Вeetroot Academy, into to IT;</p>
-                <hr align="center" width="950%" size="2" color="black" />
-            </div>
-        </article>
     </main>
-    <footer>
-        <h2 style="color: brown;">Additional Information:</h2>
-        <ul>
-            <li>Computer skills;</li>
-            <li>Languages: Ukrainian, Russian, English - intermediate level.</li>
-            <li>I am responsible for the tasks, punctual,
-                I work well in a team, <br>I work effectively in a multitasking environment,
-                I like to learn something new.</li>
-        </ul>
-    </footer>
 </body>
 </html>
